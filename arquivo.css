@@ -1,0 +1,415 @@
+/*aqui css de todas as paginas*/
+@font-face{
+	font-family: 'G';
+	src: url('./fontes/Montserrat-VariableFont_wght.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color:#F9F9F9;
+}
+
+#topo{
+	background-color:#F9F9F9;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	margin:15px;
+}
+
+#menu{
+	width:60%;
+}
+
+#menu ul{
+	display:flex;
+	list-style:none;
+	justify-content:space-evenly;
+	height:100%;
+	width:100%;
+	
+}
+
+header img{
+	width:120px;
+	height:120px;
+}
+
+footer{
+	background-color:#F3E0B5;
+	margin-top:2rem;
+	width:100%;
+	height:120px;
+	box-shadow:0 -4px 4px rgba(0,0,0,.4); /*sombra do rodape*/
+	padding:1rem;
+}
+
+main{
+	min-height:500px;
+}
+
+.lista{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+#redes img{
+	width:30px;
+	height:30px;
+	margin:5px;
+}
+
+#redes{
+		display:flex;
+		float: right;
+}
+
+#or{
+	text-align:left;
+	color:#100F0F;
+}
+/*aqui css da pagina principal*/
+h1{
+	text-align:left;
+	font-family:G;
+	text-indent:30px;
+	
+}
+#p{
+	text-align:center;
+	font-family:G;
+	font-size:17px;
+}
+
+#h1{
+	text-align:center;
+	font-family:G;
+	
+}
+#fotocapa{
+	width:100%;
+	height:20%;
+}
+
+#paragrafo1{
+	font-height:center;
+	font-family:G;
+}
+
+#copy{
+	text-align:center;
+}
+
+#fotocrianca{
+	width:400px;
+	height:550px;
+}
+
+#fotogestante{
+	width:250px;
+	height:300px;
+}
+
+#fotorn{
+	width:400px;
+	height:350px;
+}
+
+#fotoformatura{
+	width:350px;
+	height:250px;
+}
+
+#fotofamilia{
+	width:400px;
+	height:350px;
+}
+
+#section{
+	margin:0 auto;
+	width:80%;
+	display:grid;
+	grid-template-columns:50% 50%;
+	grid-auto-rows: 1fr;
+	gap:1rem;
+
+}
+
+#section img{
+	width:100%;
+	height:400px;
+	object-fit:cover;
+	object-position: top;
+}
+
+/*aqui css da pagina contato*/
+
+.contato{
+		width:50%;
+		height:450px;
+		margin-top:20px;
+}
+.contato p{
+	margin:0;
+}
+
+.formcontato div{
+	padding:1rem 0;
+	display:flex;
+	justify-content:space-between;
+	margin-top:20px;
+}
+.formcontato div > label{
+	width:50%;
+	display:block;
+	margin-left:20px;
+}
+.formcontato input{
+	width:100%;
+}
+.formcontato textarea{
+	width:100%;
+}
+/*aqui css da pagina orçamento*/
+.h1orcamento{
+	text-align:left;
+}
+.formularioorcamento div{
+	padding:1rem 0;
+	display:flex;
+	justify-content:space-between;
+}
+.formularioorcamento div > label{
+	width:45%;
+	display:block;
+}
+.formularioorcamento input{
+	width:100%;
+}
+.formularioorcamento textarea{
+	width:100%;
+}
+
+.formularioorcamento select{
+	width:100%;
+	height:100%;
+}
+
+.evento{
+	width:100%;
+	height:70%;
+}
+
+.h1forms{
+	font-family:G;
+	font-size:30px;
+	text-indent:1px;
+	color:#ADD8E6;
+}
+
+.botaoform{
+	width:30px;
+	height:70px;
+	
+}
+
+#bloco{
+	display:flex;
+	justify-content:center;
+}
+
+li a{
+	color: black;
+	text-decoration:none;
+	padding:5px;
+	border:1px solid black;
+}
+li a:hover{
+	color: white;
+	background: black;
+	transition: 0.5s;
+}
+/*aqui css do estudios*/
+.estudios {
+	display:flex;
+	justify-content:center;
+	padding:10px;
+	gap:20px;
+}
+
+.estudios div{
+	width:40%;
+	text-align:justify;
+}
+.estudio1{
+	width:100%;
+	height:350px
+}	
+.estudio2{
+	width:100%;
+	height:350px
+}	
+
+#estudios{
+	text-align:justify;
+	 padding: 0 100px;
+	font-family:G;
+	
+}
+
+.festacasamento{
+	margin:20px;
+	font-family:G;
+}
+.fotoscasamento{
+	width:350px;
+	height:250px;
+	margin:10px 70px 10px 70px;
+
+}
+.fotoscrianca{
+	width:20%;
+	height:400px;
+	object-fit:cover;
+	object-position: top;
+	padding:1rem;
+	margin:10px 30px 10px 30px;
+}
+
+.fotos1{
+	width:350px;
+	height:250px;
+}
+
+.fotosgestante{
+	width:350px;
+	height:350px;
+	margin:10px 45px 10px 45px;
+	object-fit:cover;
+	object-position: top;
+}
+
+.fotosrn{
+	width:300px;
+	height:200px;
+	margin:0 15px 0 15px;
+	object-fit:cover;
+	object-position: top;
+}
+
+.fotosformatura{
+	width:300px;
+	height:200px;
+	margin-left:105px;
+	object-fit:cover;
+	object-position: top;
+}
+
+.fotosfamilia{
+	width:300px;
+	height:350px;
+	margin:0 15px 0 15px;
+	object-fit:cover;
+	object-position: top;
+}
+
+.foto{
+	display: flex;
+	flex-direction:column;
+	border:2px solid black;
+	padding:1rem;
+}
+.foto a{
+	font-size: 1.5rem;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.foto img:hover{
+	opacity:0.7;
+	transition:0.6s;
+}
+
+p{
+	margin:10px;
+	font-family:G;
+}
+label input{
+	width:200px;
+	height: 40px;
+	padding-left:10px;
+}
+
+.h1s{
+	font-family:G;
+	font-size:30px;
+	text-indent:20px;
+	color:#ADD8E6;
+}
+
+/*aqui css da pagina sobre*/
+#sobredani img{
+	width:500px;
+	height:450px;
+	float:left;
+}
+
+#dani1{
+	width:500px;
+	height:500px;
+	float:left;
+}
+#dani3{
+	width:80px;
+	height:500px;
+}
+
+#sobre{
+	text-align:justify;
+	 padding: 0 200px;
+}
+
+.sobre{
+	display:flex;
+	justify-content:center;
+	margin:20px;
+}
+
+#insta{
+	font-size:40px;
+	color:#319DA0;
+	text-align:right;
+}
+
+#arroba{
+	font-size:20px;
+	color:#100F0F;
+	text-align:right;
+}
+
+.psobre h3{
+	font-size:18px;
+	font-family:G;
+	text-align:center;
+}
+
+
+/* cores:
+	cor bege #F5EDDC
+	cor cinza #CFD2CF
+	cor branco gelo #F9F9F9
+	azul turquesa #319DA0
+	cor preta #100F0F*/
+	
